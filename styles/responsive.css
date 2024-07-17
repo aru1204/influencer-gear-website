@@ -1,0 +1,74 @@
+@media screen and (max-width: 578px){
+    .header{
+        padding-top: 2rem;
+    }
+    .navbar{
+        display: grid;
+        grid-template-areas: "barmenu brand navicon";
+    }
+    .bar-menu{
+        display: inline;
+    }
+    .nav-ul{
+        display: none;
+    }
+    .nav-icon .search{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-content{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 28px;
+    }
+    .banner-description{
+        font-size: 14px;
+    }
+    .brand-logos{
+        flex-wrap: wrap;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .brand-logos img{
+        width: 70px;
+    }
+    .banner-img img{
+        width: 257px;
+    }
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .product-card{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .product-card img{
+        width: 100%;
+    }
+    .see-more h5{
+        padding-right: 20px;
+    }
+    .featured-img img{
+        width: 100%;
+    }
+    .featured-section{
+        flex-direction: column-reverse;
+        padding: 15px;
+        gap: 30px;
+    }
+    .featured-contant{
+        text-align: center;
+        align-items: center;
+    }
+    .featured-title{
+        font-size: 24px;
+    }
+
+}
